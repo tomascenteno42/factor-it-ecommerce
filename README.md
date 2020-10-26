@@ -8,7 +8,7 @@ Inside each folder there is a Readme.md which explains how to run both front end
 
 ## Things to keep in mind when running
 ### Back end
-When running the api the database seeder will execute once, if you want more products and users to be seeded please run the API more than once.
+When running the API, the database seeder will execute only when the API starts, if you want more products and users to be seeded please run the API more than once.
 
 ``
 src/main.ts

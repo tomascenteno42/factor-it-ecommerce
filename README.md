@@ -6,7 +6,7 @@ Ecommerce made with React js, Nest js, Typescript, Prisma and Express.
 
 Inside each folder there is a Readme.md which explains how to run both front end and back end.
 
-## Things to keep in mind when running
+## Things to keep in mind before running
 ### Back end
 When running the API, the database seeder will execute only when the API starts, if you want more products and users to be seeded please run the API more than once.
 

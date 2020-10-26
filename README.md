@@ -24,3 +24,8 @@ seeder();
 bootstrap();
 
 ```
+For everything to  work smoothly first create a `PostgreSQL` database and second head over to `back-end/prisma` and change the `DATABASE_URL` in the `.env` file following this example:
+
+```
+DATABASE_URL="postgresql://username:password@localhost:port/db_name?schema=public"
+```

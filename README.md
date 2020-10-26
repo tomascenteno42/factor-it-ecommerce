@@ -30,4 +30,4 @@ For everything to  work smoothly you will need to do a couple of things. First c
 DATABASE_URL="postgresql://username:password@localhost:port/db_name?schema=public"
 ```
 
-Also you will need to run the Prisma migrations directory to the database, you can do this by executing `npx prisma migrate up --experimental`. And you will have to generate a `Prisma client` by running `npx prisma generate` 
+Also you will need to run the Prisma migrations directory against the database, you can do this by executing `npx prisma migrate up --experimental`. And you will have to generate a `Prisma client` by running `npx prisma generate` 

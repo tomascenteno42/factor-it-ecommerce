@@ -37,5 +37,6 @@ async function bootstrap() {
 		console.log('Listening on port 8080');
 	});
 }
+
 seeder();
 bootstrap();
